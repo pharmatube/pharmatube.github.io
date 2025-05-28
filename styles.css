@@ -1,0 +1,462 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+   }
+
+.navbar{
+   
+    background-color: black;
+    
+}
+
+
+
+.navbar a{
+    background-color: #eaee86;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.navbar .a:hover{
+    background-color: #7e9e33;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+/* this is all above is the navbar setting */
+
+h1{
+    background-color: orange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust values as needed  */
+    
+    
+}
+
+h3{
+    text-align: center;
+    background-color: #eaee86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* all the settings of heading are done above the */
+
+.cont{
+    background-color: rgb(255, 255, 255);
+    height: 458px;
+    width: 250px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .cont {
+        
+        width: 150px;
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .cont {
+        
+        width: 220px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .cont {
+      
+        width: 230px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cont {
+        
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.cont a{
+    border: 5px;
+    border-style: solid;
+    border-radius:15px;
+    background-color: #eaee86;
+    padding: 10px;
+    font-size: 25px;
+    transition: all 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .cont a {
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .cont a {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .cont a {
+        font-size: 23px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cont a {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cont a:hover{
+    background-color: #7e9e33;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.cont a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+/* dekh bhai yo upar valo kaam katam hogo h issme tune div banaya h or kuch koni bus class wala div h or jada boola to topic walla h  */
+
+
+
+
+ .logo{
+   height: 170px;
+   width: 170px;
+   position: absolute;
+   top: 180px;
+   left: 268px;
+
+
+   border: 5px;
+   border-radius: 50%;
+   border-color: black;
+   border-style: solid;
+   background-image: url(photo_2024-07-15_16-22-31.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Adjust values as needed */
+} 
+
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        height: 170px;
+        width: 170px;
+         top: 180px;
+        left: 178px; 
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .logo {
+        height: 170px;
+        width: 170px;
+        top: 180px;
+        left: 268px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logo {
+        height: 170px;
+        width: 170px;
+        top: 180px;
+        left: 268px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo {
+        height: 170px;
+        width: 170px;
+        top: 180px;
+        left: 268px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+   
+  
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    height: 70%;
+
+}
+
+
+/* Extra Small Devices */
+@media (max-width: 576px) {
+    img {
+        height: 0;
+    }
+}
+
+/* Small Devices */
+@media (min-width: 577px) and (max-width: 768px) {
+    img {
+        height: 0%;
+    }
+}
+
+/* Medium Devices */
+@media (min-width: 769px) and (max-width: 992px) {
+    img {
+        height:30%;
+        
+    }
+}
+
+/* Large Devices */
+@media (min-width: 993px) and (max-width: 1200px) {
+    img {
+        height:30%;
+       
+    }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1201px)  {
+    img {
+        height: 60%;
+    }
+}
+
+
+
+
+
+
+.socialmedia a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.socialmedia{
+    background-color: rgb(255, 255, 255);
+    height: 248px;
+    width:175px ;
+    position: absolute;
+    top: 381px;
+    left: 272px;
+    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+   
+   
+    
+
+
+    
+}
+
+
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .socialmedia {
+        height: 248px;
+        width: 175px;
+        
+         top: 381px;
+        left: 180px; 
+        
+        
+        
+    }
+}
+
+
+.youtube{
+    background-color: rgb(241, 131, 131);
+    height: 37px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(you.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    
+
+
+    
+    
+}
+
+
+
+
+
+.whatsapp{
+    background-color: rgb(241, 131, 131);
+    height: 37px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(wha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.instagram{
+    background-color: rgb(241, 131, 131);
+    height: 37px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(insta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.telegram{
+    background-color: rgb(241, 131, 131);
+    height: 37px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(tele.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.countercore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px dashed lightblue;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+.foot {
+    margin-bottom: 2px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

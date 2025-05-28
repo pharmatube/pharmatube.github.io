@@ -1,0 +1,368 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+   }
+
+.navbar{
+   
+    background-color: black;
+    
+}
+
+
+
+.navbar a{
+    background-color: #eaee86;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+.navbar .a:hover{
+    background-color: #7e9e33;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+
+h1{
+    background-color: antiquewhite;
+    border: 5px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialmedia a{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.socialmedia{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width:auto ;
+    
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+   
+   
+    
+
+
+    
+}
+
+
+.youtube{
+    background-color: rgb(241, 131, 131);
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(you.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+    
+    
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .youtube {
+        height: 20px;
+        width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .youtube {
+        height: 30px;
+        width: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .youtube {
+        height: 38px;
+        width: 180px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .youtube {
+        height: 50px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+.whatsapp{
+    background-color: rgb(241, 131, 131);
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(wha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.whatsapp {
+    height: 40px;
+    width: 200px;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .whatsapp {
+        height: 20px;
+        width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .whatsapp {
+        height: 30px;
+        width: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .whatsapp {
+        height: 38px;
+        width: 180px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .whatsapp {
+        height: 50px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+.instagram{
+    background-color: rgb(241, 131, 131);
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(insta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.instagram {
+    height: 40px;
+    width: 200px;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .instagram {
+        height: 20px;
+        width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .instagram {
+        height: 30px;
+        width: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .instagram {
+        height: 38px;
+        width: 180px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .instagram {
+        height: 50px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+.telegram{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 12px;
+    background-image: url(tele.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.telegram {
+    height: 40px;
+    width: 200px;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    .telegram {
+        height: 20px;
+        width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .telegram {
+        height: 30px;
+        width: 150px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .telegram {
+        height: 38px;
+        width: 180px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .telegram {
+        height: 50px;
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+.pharagraph{
+    display: flex;
+    justify-content: center;
+}
+
+
+p{ 
+    border: 12px;
+    border-color: black;
+    border-radius: 12px;
+    border-style: solid;
+    align-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 25px;
+    height: 50vh;
+    width: 80vh;
+    cursor: pointer;
+    
+    
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    p {
+        height: 80vh;
+        width: 70vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    p {
+        height: 250vh;
+        width: 75vh;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    p {
+        height: 100vh;
+        width: 78vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    p {
+        height: 50vh;
+        width: 80vh;
+    }
+}
+
+
+    
